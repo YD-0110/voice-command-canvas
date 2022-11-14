@@ -1,0 +1,36 @@
+body
+{
+	text-align: center;
+}
+span
+{
+	font-size: 12px;
+	color: red;
+}
+canvas
+{
+	background: blue;
+	border-radius: 20px;
+}
+
+canvas:hover{
+    background: darkblue;
+    box-shadow: 5px 5px 5px blue;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow{
+    0%{box-shadow: 5px 5px 5px blue;}
+    10%{box-shadow: 10px 10px 10px blue;}
+    20%{box-shadow: 15px 15px 15px blue;}
+    30%{box-shadow: 20px 20px 20px blue;}
+    40%{box-shadow: 25px 25px 25px blue;}
+    50%{box-shadow: 30px 30px 30px blue;}
+    60%{box-shadow: 25px 25px 25px blue;}
+    70%{box-shadow: 20px 20px 20px blue;}
+    80%{box-shadow: 15px 15px 15px blue;}
+    90%{box-shadow: 10px 10px 10px blue;}
+    100%{box-shadow: 5px 5px 5px blue;}
+}
